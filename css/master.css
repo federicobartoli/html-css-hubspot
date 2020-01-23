@@ -21,6 +21,10 @@
     margin: 0 auto;
 }
 
+#bordogrigio {
+    border-bottom: 1px solid #e0e6ed;
+}
+
 header {
     height: 70px;
     line-height: 70px;
@@ -72,9 +76,24 @@ header {
     background-color: : white;
 }
 
-.fa-map-pin {
+.fa-caret-down {
     color: #7c98b6;
     display: inline-block;
     margin-left: 5px;
 
+}
+
+.divisore {
+    float: left;
+}
+
+.fa-minus{
+    color: #cbd6e2;
+    margin-left: 10px;
+    transform: rotate(90deg);
+}
+
+.divisore a {
+    color:#33475b;
+    text-decoration: none;
 }
