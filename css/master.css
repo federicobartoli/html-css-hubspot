@@ -113,6 +113,7 @@ header {
 .fa-search {
     color: #00a4bd;
     padding-right: 28px;
+    cursor: pointer;
 }
 
 .cta-login {
@@ -122,6 +123,7 @@ header {
     border: 1px solid #ff7a59;
     padding: 9px 16px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .cta-hub {
@@ -130,5 +132,6 @@ header {
     border: 1px;
     background-color: #ff7a59;
     padding: 9px 16px;
+    cursor: pointer;
 }
 /* Fixed menu !END! */
