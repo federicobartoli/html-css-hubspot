@@ -216,3 +216,54 @@ h2 {
     font-size: 12px;
     cursor: pointer;
 }
+
+/* END ADS CTA */
+
+/* PINK MAIN */
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.bg-pink {
+    background-color: #FFF2EE;
+    border-bottom: 5px solid #33475b;
+}
+
+.containerpink {
+    /* Da togliere */
+    height: 700px;
+    /* si */
+    background-image: url('../img/sfondo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    /* da mettere su? */
+    position: relative;
+}
+
+.marketing {
+    width: 40%;
+    position: absolute;
+    top: 10%
+}
+
+h1 {
+    color: #33475b;
+    font-size: 50px;
+
+}
+
+.marketing p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #33475b;
+
+}
+
+.big {
+    font-size: 15px;
+    padding: 25px 40px;
+    margin-bottom: 10px;
+}
