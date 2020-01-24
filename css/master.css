@@ -481,7 +481,7 @@ hr:after {
 }
 
 .cool {
-    height: 1500px;
+
 }
 
 .stack2 {
@@ -525,4 +525,77 @@ hr:after {
 
 .none {
     border-bottom: none;
+}
+
+.stack3 {
+    padding: 20px 0 130px;
+}
+
+.bg-bianco {
+    background-color: white;
+}
+
+.reviews {
+
+    height: 500px;
+    width: 100%
+}
+
+.sessanta {
+
+    width: 10%;
+    height: 500px;
+    float: left;
+}
+
+.sessanta1 {
+
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+.sessanta1 h2 {
+    float:left;
+    margin-top: 150px;
+    color: #33475b;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.sessanta1 p {
+    float:left;
+    color: #33475b;
+    font-size: 20px;
+
+}
+
+.sessanta2 {
+
+    width: 10%;
+    height: 500px;
+    float: left;
+}
+
+.sessanta4 {
+
+    width: 10%;
+    height: 500px;
+    float: right;
+}
+
+.sessanta3 {
+
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.sessanta3 img {
+    max-width:100%;
+}
+
+.raccoglitore {
+    margin-top: 130px;
 }
