@@ -317,18 +317,18 @@ h3 {
 
 .cards {
     height: 1000px;
-    background-color: black;
+
 }
 
 .card1 {
     width: 100%;
     height: 300px;
-    text-align: center;
     padding: 10px;
     /* da togliere */
-    background-color: white;
+
     margin-bottom: 50px;
     position: relative;
+    border: 1px solid black;
 }
 
 .card2 {
@@ -337,28 +337,93 @@ h3 {
     text-align: center;
     padding: 10px;
     /* da togliere */
-    background-color: white;
+
     margin-bottom: 50px;
     float: left;
     position: relative;
 }
 
 .sottocard {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 300px;
-    background-color: purple;
+    height: 100%;
+
 }
 
 .sottocard2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 500px;
+    height: 100%;
     background-color: purple;
+}
+
+.immaginina {
+    width: 20%;
+    height: 100%;
+    line-height: 100%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.immaginina img {
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.immaginina button {
+}
+
+.aria {
+    width: 10%;
+}
+
+.freecrm {
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding: 60px;
+
+}
+
+.freecrm h4 {
+    color: #33475b;
+    font-size: 25px;
+}
+
+.freecrm p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #33475b;
+}
+
+.freecrm h5 {
+    color: #33475b;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    background-color: #eff2f6;
+    border-width: 0;
+    color: #eff2f6;
+    height:1px;
+    width: 600px;
+    line-height:0;
+    margin: 0.5px 0;
+    text-align: center;
+    position: relative;
+    bottom: 39px;
+    left: 200px;
+}
+
+hr:after {
+    font-size:1.25px;
+    position: relative;
+    left: -0.5px;
+}​
+
+.freecrm p {
+    color: #33475b;
+    text-transform: uppercase;
 }
