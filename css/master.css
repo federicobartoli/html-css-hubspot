@@ -536,22 +536,20 @@ hr:after {
 }
 
 .reviews {
-
-    height: 500px;
     width: 100%
 }
 
 .sessanta {
 
     width: 10%;
-    height: 500px;
+    height: 450px;
     float: left;
 }
 
 .sessanta1 {
 
     width: 20%;
-    height: 500px;
+    height: 450px;
     float: left;
 }
 
@@ -574,21 +572,20 @@ hr:after {
 .sessanta2 {
 
     width: 10%;
-    height: 500px;
+    height: 450px;
     float: left;
 }
 
 .sessanta4 {
 
     width: 10%;
-    height: 500px;
+    height: 450px;
     float: right;
 }
 
 .sessanta3 {
-
     width: 50%;
-    height: 500px;
+    height: 450px;
     float: left;
 }
 
@@ -598,4 +595,45 @@ hr:after {
 
 .raccoglitore {
     margin-top: 130px;
+}
+
+.donna {
+    height: 500px;
+}
+
+.partetesto {
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.parteimmagine {
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+
+.partetesto h2 {
+    color: #33475b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.partetesto p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #33475b;
+
+}
+
+.partetesto h6 {
+    margin-top: 25px;
+    font-weight: 300;
+    color: #879bb2;
+}
+
+.parteimmagine img {
+    float: right;
+    width: 50%
 }
