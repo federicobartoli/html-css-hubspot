@@ -324,33 +324,32 @@ h3 {
     width: 100%;
     height: 300px;
     padding: 10px;
-    /* da togliere */
-
+    background-color: #ffffff;
     margin-bottom: 50px;
     position: relative;
-    border: 1px solid black;
 }
 
 .card2 {
-    width: 33.3333%;
-    height: 500px;
+    width: 32.2%;
+    height: 600px;
     text-align: center;
     padding: 10px;
-    /* da togliere */
-
+    background-color: #ffffff;
     margin-bottom: 50px;
     float: left;
     position: relative;
 }
 
+#margine {
+    margin-right: 20px;
+}
+
 .sottocard {
     height: 100%;
-
 }
 
 .sottocard2 {
     height: 100%;
-    background-color: purple;
 }
 
 .immaginina {
@@ -384,12 +383,12 @@ h3 {
 
 }
 
-.freecrm h4 {
+h4 {
     color: #33475b;
     font-size: 25px;
 }
 
-.freecrm p {
+.immaginina p {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #33475b;
@@ -426,4 +425,53 @@ hr:after {
 .freecrm p {
     color: #33475b;
     text-transform: uppercase;
+}
+
+.card1:hover {
+    transform: scale(103%);
+    transition: "0.4s" ;
+}
+
+.immaginina2 {
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.immaginina2 img {
+    width: 40%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.immaginina2 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #33475b;
+}
+
+.immaginina2 h5 {
+    color: #33475b;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.card2:hover {
+    transform: scale(103%);
+    transition: "0.4s" ;
+}
+
+.medium {
+    padding: 10px 30px;
+}
+
+.buttonssss {
+
 }
