@@ -637,3 +637,49 @@ hr:after {
     float: right;
     width: 50%
 }
+
+
+/* inizio footer */
+
+.bg-blue {
+    background-color: #33475b;
+}
+
+.stack4 {
+    padding: 0px 0 70px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h5 {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.traffic {
+    width: 25%;
+    float: left;
+}
+.connect {
+    width: 25%;
+    float: left;
+}
+.leads {
+    width: 25%;
+    float: left;
+}
+.tools {
+    width: 25%;
+    float: right;
+}
+
+footer a {
+    color: #cad5e1;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 18px;
+}
