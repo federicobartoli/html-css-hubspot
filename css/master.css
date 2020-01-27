@@ -296,7 +296,11 @@ h1 {
 
 .stack-logo {
     position: relative;
-    left: 300px;
+    left: 450px;
+}
+
+.stack-logo img {
+    height: 200px;
 }
 
 .powerlines {
