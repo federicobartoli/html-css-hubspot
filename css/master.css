@@ -661,19 +661,23 @@ footer h5 {
 
 .traffic {
     width: 25%;
+    height: 500px;
     float: left;
 }
 .connect {
     width: 25%;
     float: left;
+    height: 500px;
 }
 .leads {
     width: 25%;
     float: left;
+    height: 500px;
 }
 .tools {
     width: 25%;
     float: right;
+    height: 500px;
 }
 
 footer a {
@@ -682,4 +686,92 @@ footer a {
     font-size: 14px;
     display: block;
     padding-bottom: 18px;
+}
+
+.inline {
+    display: inline;
+}
+
+.small {
+    font-size: 11px;
+    color: #d6dade;
+}
+
+.topp {
+    padding-top: 18px;
+}
+
+
+.inline .fa-caret-down {
+    cursor: context-menu;
+}
+
+.piccolo {
+    padding: 8px 15px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.socialitem .fab {
+    color: #cbd6e2;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.center {
+    width: 100%;
+    float: left;
+}
+
+.linguefooter {
+    color: #cbd6e2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #576f88;
+}
+
+.linguefooter a {
+    display: inline;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.logofooter {
+    width: 50%;
+    float: left;
+}
+
+.divisorefinefooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divisorefinefooter a {
+    padding-bottom: 0;
+}
+
+.divisorefinefooter small {
+    color: #cbd6e2;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.ultimilink {
+    width: 50%;
+    float: right;
+}
+
+.legalpriv {
+    float:right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.legalpriv a {
+    display: inline;
+    padding-right: 30px;
+    font-size: 15px;
 }
